@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+.keyboard {
+    display: block;
+    padding: 5px;
+    padding-left: 25%;
+}
+
+.keyboard::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.k-key {
+    width: 50px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+    float: left;
+    text-align: center;
+    background-color: silver;
+}
+
+.active {
+    background: gray;
+}
+
